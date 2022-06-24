@@ -218,7 +218,7 @@ palomad tx distribution withdraw-rewards $VALOPER_ADDRESS --from=$WALLET --commi
 ### Doğrulayıcı Yönetimi
 Validatör İsmini Değiştir:
 ```
-seid tx staking edit-validator \
+palomad tx staking edit-validator \
 --moniker=NEWNODENAME \
 --chain-id=$CHAIN_ID \
 --from=$WALLET
